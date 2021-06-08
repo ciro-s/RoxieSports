@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Roxie-Sports</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font CSS -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light shadow">
+	
+        <!--navbar-expand-lg = envoltorio para que el navbar se estire en lg
+        navbar-light = texto negro de la letra
+        bg-white = fondo de color blanco
+        -->
+    
+            <div class="container d-flex justify-content-between align-items-center">
+            
+                <a class="navbar-brand h1" href="index.html">
+                <!--navbar-brand = clase se utiliza para resaltar la marca o logotipo de su página-->	
+                    <span class="iconify" data-icon="bx:bx-dumbbell" data-inline="false"></span>
+                    <!--	bx bx-buildings = icono del logo de la web: 
+                    http://www.unisvg.com/icon-sets/bx/bx-buildings.html 
+                    https://boxicons.com/
+                    -->
+    
+               <span class="text-dark h4">Roxie-</span><span class="text-3 h4">Sports</span></a>
+                
+                <!--	boton de hamburguesa --> 
+                    <button class="navbar-toggler border-0" 
+                    type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbar-toggler-success" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+            <!------------------------------------------- Opciones del Menu		-->
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" 
+            id="navbar-toggler-success">
+            
+            <!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+            por un punto de interrupción principal.
+            flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+            d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+            directos en elementos flexibles
+            -->
+                            <div class="flex-fill mx-xl-5 mb-2">
+                    <!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                            <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                        <!--   .navbar-nav para una navegación ligera y de altura completa 
+                           (incluida la compatibilidad con menús desplegables).-->
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-success rounded-pill px-3 boton-nav" href="index.html">Inicio</a>
+                            <!-- px = padding y mx es el margin 
+                            rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-success rounded-pill px-3 boton-nav" href="about.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-success rounded-pill px-3 boton-nav" href="work.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-success rounded-pill px-3 boton-nav" href="pricing.html">Envíos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-outline-success rounded-pill px-3 boton-nav" href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+    <!---------------------------------------------------------Fin de las opciones del menu
+    ------------------------------------------------------------ Inicio de los iconos del menu-->
+                    <div class="navbar align-self-center d-flex">
+                        <a class="nav-link" href="#"><i class='bx bx-cart bx-sm bx-tada-hover iconos-nav'></i></a>
+                        <a class="nav-link" href="#"><i class='bx bx-cog bx-sm iconos-nav'></i></a>
+                        <!--	https://iconify.design/icon-sets/bx/-->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!-- Close Header -->
+
+
+    <!-- Start Banner Hero -->
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-5">
+                <div class="col-lg-6 text-start">
+                    <h1 class="h2 py-5 typo-space-line" style="color: #064420;">Quienes somos</h1>
+                    <p class="light-300">
+                        Somos la cadena líder en el rubro del deporte y la moda con extensa cobertura en todo el país
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./assets/img/nosotros-1.jpg" width="100%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Team Member -->
+    <section class="container py-5">
+        <div class="pt-5 pb-3 d-lg-flex align-items-center gx-5">
+
+            <div class="col-lg-3">
+                <h2 class="h2 py-5 typo-space-line" style="color: #064420;">Nuestro Equipo</h2>
+                <p class="text-muted light-300">
+                    Decidimos sumar a la trayectoria, calidad y experiencia de nuestro equipo una ambiciosa apuesta en el mundo digital. Nutriéndonos de las nuevas tendencias, nuestra propia sinergia nos llevó a consolidar junto a los valores de siempre una fuerte identidad dinámica, joven y digital.
+                </p>
+            </div>
+
+            <div class="col-lg-9 row">
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-01.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Carlos Fernández</li>
+                        <li>Fundador</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-02.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Maria Flores</li>
+                        <li>Gerente Ventas</li>
+                    </ul>
+                </div>
+                <div class="team-member col-md-4">
+                    <img class="team-member-img img-fluid rounded-circle p-4" src="./assets/img/team-03.jpg" alt="Card image">
+                    <ul class="team-member-caption list-unstyled text-center pt-4 text-muted light-300">
+                        <li>Leonardo Gómez</li>
+                        <li>Gerente de TI</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Team Member -->
+
+    <!-- Start Our Aim -->
+    <section class="py-3" style="background-color: #064420;">
+        <div class="container my-4">
+            <div class="row text-center">
+
+                <div class="objective col-lg-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 shadow-lg" style="background-color: #faf1e6;">
+                        <i class="display-4 bx bxs-binoculars text-dark"></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300 text-light">Vision</h2>
+                    <p class="light-300 text-light">
+                        Ser el retailer líder en ventas y en servicio al cliente, siendo siempre cercano al consumidor.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 shadow-lg" style="background-color: #faf1e6;">
+                        <i class='display-4 bx bx-list-check text-dark'></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300 text-light">Misión</h2>
+                    <p class="light-300 text-light">
+                        Hablamos a través del deporte y de la moda con el objetivo de acompañarlos en cada momento de sus vidas para que puedan competir, entrenar o lucir su estilo personal, transmitiendo inspiración e innovación.
+                    </p>
+                </div>
+
+                <div class="objective col-lg-4 mt-sm-0 mt-4">
+                    <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 shadow-lg" style="background-color: #faf1e6;">
+                        <i class="display-4 bx bxs-heart text-dark"></i>
+                    </div>
+                    <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300 text-light">Valores</h2>
+                    <p class="light-300 text-light">
+                        Pasión - Innovación - Compromiso
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--End Our Aim-->
+
+    <!-- Start Choice -->
+    <section class="why-us banner-bg bg-light">
+        <div class="container my-4">
+            <div class="row">
+                <div class="banner-img col-lg-5">
+                    <img src="./assets/img/porque.svg" class="rounded img-fluid" alt="">
+                </div>
+                <div class="banner-content col-lg-7 align-self-end">
+                    <h2 class="h2 pb-3" style="color: #064420;">¿Porqué Elegirnos?</h2>
+                    <p class="text-muted pb-5 light-300">
+                        Porque te ofrecemos la más amplia gama de productos al mejor precio para que puedas comprar de forma ágil y personalizada donde quiera que estés. Estamos dispuestos a acompañarte en cada momento de tu vida.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Choice -->
+
+    
+
+    <!-- Start Contact -->
+    <section class="banner-bg bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto my-4 p-3">
+                    <form action="#" method="get"><h1 class="h2 text-center">Suscribite a nuestras novedades</h1>
+                    <div class="input-group py-3">
+                    
+                        <input name="email" type="mail" class="form-control form-control-lg rounded-pill rounded-end" id="email" placeholder="Tu Email" aria-label="Tu Email" required>
+                        <button class="btn boton text-dark btn-lg rounded-pill rounded-start px-lg-4" type="submit">Suscribirte</button>
+                    </div>
+                    <p class="text-center light-300">Te enviaremos ofertas, promociones y cupones personalizados</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+     <!-- Start Footer -->
+     <footer class="pt-4" style="background-color: #82ce96;">
+        <div class="container">
+            <div class="row py-4">
+
+                <div class="col-lg-3 col-12 align-left">
+                    <a class="navbar-brand" href="index.html">
+                        <span class="iconify text-dark" data-icon="bx:bx-dumbbell" data-inline="false"></span>
+                        <span class="text-dark h5">Roxie-</span><span class="text-dark h5 semi-bold-600">Sports</span>
+                    </a>
+                    <ul class="list-inline footer-icons light-300">
+                        <li class="list-inline-item m-0">
+                            <a class="text-dark" target="_blank" href="http://facebook.com/">
+                                <i class='bx bxl-instagram-alt bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-dark" target="_blank" href="https://www.linkedin.com/">
+                                <i class='bx bxl-linkedin-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-dark" target="_blank" href="https://www.whatsapp.com/">
+                                <i class='bx bxl-whatsapp-square bx-md'></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item m-0">
+                            <a class="text-dark" target="_blank" href="https://www.medium.com/">
+                                <i class='bx bxl-medium-square bx-md' ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h3 class="h4 pb-lg-3 text-dark light-300">Nosotros</h2>
+                        <ul class="list-unstyled text-dark light-300">
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark" 
+								href="index.html">Inicio</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+								href="about.html">Nosotros</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+								href="work.html">Productos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-right-arrow bx-xs'></i></i><a class="text-decoration-none text-dark py-1" 
+								href="pricing.html">Envíos</a>
+                            </li>
+                            <li class="pb-2">
+                                <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+								href="contact.html">Contáctanos</a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-dark light-300">Ayuda</h2>
+                    <ul class="list-unstyled text-dark light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+							href="#marcas">Marcas</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+							href="#">Sucursales</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+							href="#">Medios de pago</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+							href="#">Preguntas frecuentes</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+							href="#">Devoluciones</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-right-arrow bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+							href="#">Cambios</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                    <h2 class="h4 pb-lg-3 text-dark light-300">Reclamos - Consultas:</h2>
+                    <ul class="list-unstyled text-dark light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-dark py-1" 
+							href="tel:010-020-0340">021-2354-4568</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-dark py-1"
+							href="mailto:info@company.com">info@company.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="w-100 py-3" style="background-color: #faf1e6;">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-start text-center text-dark light-300">
+                            © Copyright 2021 Roxie-Sports. Todos los derechos reservados.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-lg-end text-center tex-dark light-300">
+                            Diseñado por <a rel="sponsored" class="text-decoration-none text-dark" 
+							href="https://cursophp.com.ar/" target="_blank"><strong>Ciro Solalinde</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
